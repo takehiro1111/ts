@@ -1,3 +1,4 @@
+export{}
 const num = 100
 
 if(num > 10){
