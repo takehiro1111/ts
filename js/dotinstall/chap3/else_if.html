@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        else_ifでの条件分岐
+    </title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>
+        if文による条件分岐
+    </h1>
+    <script>
+        let num = 8;
+        // else_if
+        if(num === 10){
+            document.write("<p>10と同一</p>");
+        }
+        else if(num === "10"){
+            document.write("<p>10と厳密に同一</p>");
+        }
+        else if(num === 9) {
+            document.write("<p>9と厳密に同一</p>");
+        }
+        else{
+            document.write("<p>どれにも当てはまらない。</p>");
+        }
+    </script>
+</body>
+</html>
