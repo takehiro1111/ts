@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var num = Math.round(Math.random() * 100);
-console.log("num\u306E\u5024:".concat(num));
-var rem = num % 2;
-var cond = (rem == 0);
+const num = Math.round(Math.random() * 100);
+console.log(`numの値:${num}`);
+const rem = num % 2;
+const cond = (rem == 0);
 if (cond) {
     console.log("偶数");
 }

@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var students = {
+const students = {
     name: 'sato',
     age: 25,
     from: 'tokyo',
 };
-for (var key in students) {
+for (const key in students) {
     console.log(key);
     console.log(students[key]);
 }
