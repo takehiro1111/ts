@@ -1,0 +1,48 @@
+/* 文字コードの指定 */
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+
+p {
+  background-color: pink;
+  background-color: orange;
+
+  margin: 0;
+
+  /* max-width: 500px;
+  min-width: 100px;
+
+  max-height: 300;
+  min-height: 100;
+
+  width: 50%;
+  height: 160px; */
+
+
+  /* border-width: 8px; */
+  /* border-color: blue; */
+  /* border-style: solid; */
+
+  /* border-top-width: 8px;
+  border-top-color: blue;
+  border-top-style: dashed;
+
+  border-bottom-width: 8px;
+  border-bottom-color: blue;
+  border-bottom-style: double; */
+
+  border: 8px solid red;
+
+  /* 値を省略すると面倒。 */
+  border-top: 8px solid skyblue;
+  border-bottom: 8px solid greenyellow;
+
+  /* paddingプロパティ: 方向を指定できる。 */
+  padding: 16px;
+
+}
+
+
